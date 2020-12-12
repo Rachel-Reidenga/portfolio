@@ -11,7 +11,7 @@ body {
 /* Navigation */
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #271936;
     color: #ffffff;
 }
@@ -19,6 +19,7 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    font-weight: bold;
 }
 
 
@@ -26,7 +27,7 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
@@ -34,7 +35,7 @@ body {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -82,7 +83,7 @@ p {
     float: left;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #271936;
 }
 
@@ -109,7 +110,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -145,14 +146,25 @@ p {
 .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
     text-align: center;
+    background: #271936;
+    width: 100%;
     color: #ffffff;
     display: inline;
 }
 
 .footer h2 {
     font-size: 20px;
+    display: inline;
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
 }
 
