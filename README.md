@@ -29,8 +29,8 @@ Shout out to Tanetta J, Monica H and Paul C
 
 ## Acknowledgments
 
-![css-tricks.com](https://css-tricks.com/)
+[css-tricks.com](https://css-tricks.com/)
 
-![w3schools.com](https://www.w3schools.com/)
+[w3schools.com](https://www.w3schools.com/)
 
-![stackoverflow](https://stackoverflow.com/)
+[stackoverflow](https://stackoverflow.com/)
