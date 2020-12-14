@@ -1,3 +1,9 @@
+:root {
+    --black: #0c110b;
+    --white: #ffffff;
+    --soft-white: #d9dcd6;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,15 +11,15 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: var(--soft-white);
 }
 
 /* Navigation */
 .header {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #0c110b;
-    color: #ffffff;
+    background-color: var(--black);
+    color: var(--white);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -59,7 +65,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -77,19 +83,6 @@ p {
 }
 
 .hero h2 {
-   /* padding: 10px;
-    height: 300px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    line-height: 1.6;
-    color: #ffffff;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: right;
-    list-style: none;
-    margin-left: 50px;
-    width: 35%;
-    align-items: flex-end; */
     margin: 20% 15%;
 }
 
@@ -106,7 +99,7 @@ h2 .float-right {
     float: right;
     margin-left: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
+    color: var(--white);
 }
 
 .content {
@@ -127,24 +120,11 @@ h2 .float-right {
     float: left;
     width: 15%;
     height: 100%;
-    /* font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px; */
-    background-color: #0c110b;
-    /* color: #ffffff; */
+    background-color: var(--black);
     padding-bottom: 200em;
 }
 
-
-/* .h3 {
-    margin: 0;
-    margin-bottom: 10px;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    color: #ffffff;
-    position: fixed;
-} */
-
+/* About Me */
 .about-me, .work {
     margin-bottom: 10px;
     padding: 50px;
@@ -153,45 +133,11 @@ h2 .float-right {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     text-align: center;
-    color: #ffffff;
+    color: var(--white);
     transform: translatex(-50%) translatey(-50%) rotate(90deg);
 }
 
-/*About Me*/
-
-/* .myself {
-    padding: 50px;
-    height: 300px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    line-height: 1.3;
-    color: #ffffff;
-    width: 65%;
-    text-align: left;
-    
-    display: flex;
-    position: relative;
-    float: right;
-    width: 75%;
-
-} */
-
-
 /*Projects*/
-
-/* .project {
-    width: 800px;
-    height: 420px;
-    float: right;
-} */
-
-/* .img-container{
-    width: 50%;
-    display: grid;
-    grid-template-columns: repeat (4, 1fr);
-    grid-template-rows: repeat (4, 1fr);
-    grid-auto-flow: dense; */
-}
 .img {
     width: 100%;
     height: auto;
@@ -200,14 +146,13 @@ h2 .float-right {
 
 .row {
     font-family: Arial, Helvetica, sans-serif;
-    color: #0c110b;
+    color: var(--black)
     line-height: 1.3;
     width: 95%;
     margin-bottom: 1%;
     padding-bottom: 20px;
     float: left;
     padding: 15px;
-
 }
 
 div .img-container :hover { 
@@ -218,14 +163,6 @@ div .img-container :hover {
     width: 100%;
 }
 
-
-/* .second-project {
-    width: 25%;
-    height: 25%%;
-    padding: 100px;
-
-} */
-
 /* Footer */
 .footer {
     padding: 30px 35px;
@@ -233,9 +170,9 @@ div .img-container :hover {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
     text-align: center;
-    background: #0c110b;
+    background: var(--black);
     width: 100%;
-    color: #ffffff;
+    color: var(--white);
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -245,7 +182,7 @@ div .img-container :hover {
 
 .footer h2 {
     font-size: 20px;
-    color: #ffffff;
+    color: var(--white);
     margin: 0;
 }
 
