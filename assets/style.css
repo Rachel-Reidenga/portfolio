@@ -131,27 +131,32 @@ h2 .float-right {
     font-size: 25px; */
     background-color: #0c110b;
     /* color: #ffffff; */
-    padding-bottom: 100em;
+    padding-bottom: 200em;
 }
 
 
-.h3 {
+/* .h3 {
     margin: 0;
     margin-bottom: 10px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     color: #ffffff;
     position: fixed;
-}
+} */
 
 .about-me, .work, .contact-me {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 50px;
     height: 300px;
+    width: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
     color: #ffffff;
+    transform: translatex(-50%) translatey(-50%) rotate(90deg);
 }
+
 
 /*About Me*/
 
@@ -215,12 +220,12 @@ div .img-container :hover {
 }
 
 
-.second-project {
+/* .second-project {
     width: 25%;
     height: 25%%;
     padding: 100px;
 
-}
+} */
 
 /* Footer */
 .footer {
