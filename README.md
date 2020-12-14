@@ -11,18 +11,26 @@ Built a portfolio to help create an online presence.
 
 Link to [Protfolio](http://rachel-reidenga/portfolio.github.io/)
 
-Link to code on [GitHub] http://github.com/rachel-reidenga/protfolio/)
+Link to code on [GitHub](http://github.com/rachel-reidenga/protfolio/)
 
 Link to repository on [GitHub](http://placeholdertext.com)
 
 ## Screenshots
 
-[Top of Page](link to photo)
+![Top of Page](./screenshots/TopScreenshot.png)
 
-[Middle of Page] (Link photo)
+![Middle of Page](./screenshots/AboutScreenshot.png)
 
-[Bottom of Page] (link photo)
+![Bottom of Page](./screenshots/bottomScreenshot.png)
 
 ## Built With
 
-Shout out to...
+Shout out to Tanetta J, Monica H and Paul C
+
+## Acknowledgments
+
+![css-tricks.com](https://css-tricks.com/)
+
+![w3schools.com](https://www.w3schools.com/)
+
+![stackoverflow](https://stackoverflow.com/)
