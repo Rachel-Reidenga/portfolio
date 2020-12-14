@@ -145,18 +145,17 @@ h2 .float-right {
     position: fixed;
 } */
 
-.about-me, .work, .contact-me {
+.about-me, .work {
     margin-bottom: 10px;
     padding: 50px;
     height: 300px;
     width: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     color: #ffffff;
     transform: translatex(-50%) translatey(-50%) rotate(90deg);
 }
-
 
 /*About Me*/
 
@@ -207,7 +206,7 @@ h2 .float-right {
     margin-bottom: 1%;
     padding-bottom: 20px;
     float: left;
-    padding: 5px;
+    padding: 15px;
 
 }
 
