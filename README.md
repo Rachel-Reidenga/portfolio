@@ -11,9 +11,9 @@ Built a portfolio to help create an online presence.
 
 Link to [Protfolio](http://Rachel-Reidenga/portfolio.github.io/)
 
-Link to code on [GitHub](https://github.com/Rachel-Reidenga/portfolio)
+Link to code on [GitHub](https://github.com/Rachel-Reidenga/portfolio/blob/Rachel-Reidenga.github.io/index.html)
 
-Link to repository on [GitHub](http://placeholdertext.com)
+Link to repository on [GitHub](https://github.com/Rachel-Reidenga/portfolio)
 
 ## Screenshots
 
