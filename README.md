@@ -9,7 +9,7 @@ Built a portfolio to help create an online presence.
 
 ## Deployment
 
-Link to [Protfolio](http://Rachel-Reidenga/portfolio.github.io/)
+Link to [Protfolio](https://rachel-reidenga.github.io/portfolio/)
 
 Link to code on [GitHub](https://github.com/Rachel-Reidenga/portfolio/blob/Rachel-Reidenga.github.io/index.html)
 
